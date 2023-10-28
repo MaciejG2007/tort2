@@ -1,0 +1,34 @@
+body {
+    background: radial-gradient(circle, #ff0000, #0000ff);
+}
+#markedArea {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: transparent;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#displayObject{
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-image: url('flame4.png');
+    background-size: cover;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#photo1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.naglo {
+    text-align: center;
+}
+
+
